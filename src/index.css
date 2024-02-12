@@ -22,7 +22,7 @@
 }
 
 body {
-  background: url("src/assets/BeFunky-collage.webp"); /* Update the path based on your project structure */
+  background: url(".\assets\BeFunky-collage.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
