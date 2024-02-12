@@ -13,25 +13,25 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
+      "No, syempre",
+      "Are you sure bab?",
+      "Really sure bab?",
+      "Think again babi!",
+      "Last chance! babi ha?",
+      "Weh? ",
+      "You might regret this bab!",
+      "Give it another thought bab!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
+      "This could be a mistake bab!",
+      "Have a heart uy !",
+      "Don't be so cold bab!",
+      "Change of heart bab?",
+      "Wouldn't you reconsider bab?",
+      "Is that your final answer bab?",
       "You're breaking my heart ;(",
-      "Is that your final answer?",
+      "Is that your final answer bab?",
       "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Plsss? :( You're breaking my heart bab",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -41,9 +41,9 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+        <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Bear Kiss" />
           <div className="text-4xl md:text-6xl font-bold my-4 text-white">
-            Ok Yayyyyy!!!
+            Ok Yayyyyy!!! I love you babi nako!!
           </div>
         </>
       ) : (
