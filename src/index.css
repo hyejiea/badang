@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+/* Importing Tailwind CSS styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,8 +20,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
-  background: url("C:\Users\User\Desktop\vaaay\valentine-main\src\assets\BeFunky-collage.jpg");
+  background: url("C:\Users\User\Desktop\vaaay\valentine-main\src\assets\BeFunky-collage.jpg"); /* Update the path based on your project structure */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
